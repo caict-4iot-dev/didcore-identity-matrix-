@@ -1,0 +1,33 @@
+{
+  "name": "did-manage",
+  "version": "1.0.0",
+  "dependencies": {
+    "sqlite3": "^5.0.2",
+    "typescript": "^4.5.5",
+    "bifcore-sdk-nodejs": "^1.0.7",
+    "data-store": "workspace:^",
+    "tool": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.xinghuo.space/xinghuo-open-source/did/didcore-identity-matrix.git",
+    "directory": "packages/did-manage"
+  },
+  "keywords": [
+    "bitfactory",
+    "DID",
+    "Verifiable Credential",
+    "did-manager",
+    "did-plugin"
+  ],
+  "license": "Apache-2.0",
+  "type": "module",
+  "moduleDirectories": [
+    "node_modules",
+    "lib"
+  ]
+}

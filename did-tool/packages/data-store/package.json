@@ -1,0 +1,32 @@
+{
+  "name": "data-store",
+  "version": "1.0.0",
+  "dependencies": {
+    "brdc-sjcl": "^1.1.0",
+    "crypto-js": "^4.2.0",
+    "sqlite3": "^5.0.2",
+    "tool": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.xinghuo.space/xinghuo-open-source/did/didcore-identity-matrix.git",
+    "directory": "packages/data-store"
+  },
+  "keywords": [
+    "bitfactory",
+    "DID",
+    "Verifiable Credential",
+    "did-manager",
+    "did-plugin"
+  ],
+  "license": "Apache-2.0",
+  "type": "module",
+  "moduleDirectories": [
+    "node_modules",
+    "lib"
+  ]
+}

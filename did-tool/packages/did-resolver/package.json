@@ -1,0 +1,40 @@
+{
+  "name": "did-resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.2",
+    "json-bigint": "^1.0.0",
+    "is-type-of": "^1.2.1",
+    "tool": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.xinghuo.space/xinghuo-open-source/did/didcore-identity-matrix.git",
+    "directory": "packages/did-resolver"
+  },
+  "keywords": [
+    "bitfactory",
+    "DID",
+    "Verifiable Credential",
+    "did-resolver",
+    "did-plugin"
+  ],
+  "license": "Apache-2.0",
+  "type": "module",
+  "moduleDirectories": [
+    "node_modules",
+    "lib"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "credentialSubjectRequest": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "申请人"
+                },
+                "email": {
+                    "type": "string",
+                    "description": "邮箱地址"
+                },
+                "iphone": {
+                    "type": "string",
+                    "description": "电话"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "申请凭证请求参数"
+                },
+                "additionalProperties": false
+            },
+            "required": ["name","email"]
+        }
+    }
+}
